@@ -17,4 +17,4 @@ while [ $# -gt 0 ]; do
 done
 
 # Launch ObjectDB Server:
-exec ${JAVA_VM} -server -Xms16M -Xmx256M -cp ${OBJECTDB_JARS} com.objectdb.Server $ARGS
+exec ${JAVA_VM} -server -Xms16M -Xmx256M -cp ${OBJECTDB_JARS} com.objectdb.Server $ARGS &
